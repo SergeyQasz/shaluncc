@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Шалунц Шушаник Сергеевна — невролог, психотерапевт, эпилептолог, Астрахань</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4F2F8;--panel:#E8E5F2;--ink:#1C1B33;--mute:#5A587A;--acc:#4B4BC8;--teal:#138A7C;--line:rgba(28,27,51,.16);
+--fd:'Lora',Georgia,serif;--fb:'Manrope','Segoe UI',Arial,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1024;--panel:#1A1B3A;--ink:#E9E8F7;--mute:#A4A2CC;--acc:#9A9AFF;--teal:#5ED0C0;--line:rgba(233,232,247,.18)}}
+:root[data-theme="dark"]{--bg:#0F1024;--panel:#1A1B3A;--ink:#E9E8F7;--mute:#A4A2CC;--acc:#9A9AFF;--teal:#5ED0C0;--line:rgba(233,232,247,.18)}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--fb);overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--acc);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1020px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:58px;gap:12px}
+header b{font:600 16px var(--fd)}
+nav{display:flex;gap:20px;font-size:15px}
+nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--ink)}
+#theme{background:none;border:1px solid var(--line);color:var(--ink);border-radius:99px;width:36px;height:36px;cursor:pointer;font-size:16px}
+.hero{position:relative;min-height:90vh;display:flex;align-items:center;overflow:hidden}
+#net{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero .wrap{position:relative;pointer-events:none;padding-top:30px;padding-bottom:50px}
+.hero a,.hero button{pointer-events:auto}
+.role{font-weight:700;color:var(--teal);margin:0 0 14px;font-size:16px}
+h1{font:600 clamp(34px,6.6vw,68px)/1.08 var(--fd);margin:0 0 20px;letter-spacing:-.01em;max-width:780px}
+h1 span{display:block;overflow:hidden}
+h1 span i{display:block;font-style:normal;transform:translateY(105%);animation:rise 1s cubic-bezier(.2,.8,.2,1) forwards}
+h1 span:nth-child(2) i{animation-delay:.14s}
+h1 span:nth-child(3) i{animation-delay:.28s}
+@keyframes rise{to{transform:none}}
+.sub{max-width:540px;color:var(--mute);font-size:19px;margin:0 0 24px;opacity:0;animation:fade .9s .8s forwards}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px;padding:0;list-style:none;opacity:0;animation:fade .9s 1s forwards}
+.chips li{border:1px solid var(--line);border-radius:99px;padding:6px 16px;font-size:15px;background:color-mix(in srgb,var(--bg) 80%,transparent)}
+.btns{display:flex;flex-wrap:wrap;gap:12px;opacity:0;animation:fade .9s 1.1s forwards}
+@keyframes fade{to{opacity:1}}
+.btn{display:inline-block;padding:14px 26px;border-radius:99px;font:700 16px var(--fb);text-decoration:none;border:1.5px solid var(--ink);transition:transform .2s;cursor:pointer;color:var(--ink);background:none}
+.btn.main{background:var(--acc);border-color:var(--acc);color:var(--bg)}
+.btn:hover{transform:translateY(-2px)}
+.hint{position:absolute;right:22px;bottom:14px;font-size:13px;color:var(--mute)}
+section{padding:84px 0;border-top:1px solid var(--line)}
+h2{font:600 clamp(26px,4vw,40px)/1.15 var(--fd);margin:0 0 30px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.tab{font:500 15px var(--fb);padding:10px 20px;border-radius:99px;border:1px solid var(--line);background:none;color:var(--ink);cursor:pointer;transition:all .2s}
+.tab[aria-selected="true"]{background:var(--acc);border-color:var(--acc);color:var(--bg)}
+.pane{background:var(--panel);border-radius:22px;padding:30px;display:grid;gap:22px;grid-template-columns:1fr 1.2fr}
+.pane h3{font:600 24px var(--fd);margin:0 0 10px}
+.pane p{margin:0;color:var(--mute)}
+.pane ul{margin:0;padding:0;list-style:none}
+.pane li{padding:9px 0 9px 26px;position:relative;border-bottom:1px solid var(--line)}
+.pane li:last-child{border:0}
+.pane li::before{content:"";position:absolute;left:4px;top:19px;width:9px;height:9px;border-radius:50%;background:var(--teal)}
+.swap{animation:swap .35s ease}
+@keyframes swap{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
+.note{font-size:14px;color:var(--mute);margin:14px 0 0}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px;counter-reset:s}
+.steps li{counter-increment:s;border:1px solid var(--line);border-radius:20px;padding:22px;transition:border-color .25s,transform .25s}
+.steps li:hover{border-color:var(--acc);transform:translateY(-3px)}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--acc);color:var(--bg);font:700 15px var(--fb);margin-bottom:12px}
+.steps b{display:block;margin-bottom:4px}
+.steps span{color:var(--mute);font-size:15px}
+.about{display:grid;grid-template-columns:1.2fr 1fr;gap:34px;align-items:start}
+.about p{margin:0 0 14px}
+.facts{list-style:none;margin:0;padding:0}
+.facts li{padding:14px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:14px}
+.facts span{color:var(--mute);text-align:right}
+.clinic{background:var(--panel);border-radius:22px;padding:30px;display:grid;gap:22px;grid-template-columns:1.2fr 1fr}
+.clinic h3{font:600 22px var(--fd);margin:0 0 8px}
+.clinic p{margin:0 0 6px;color:var(--mute)}
+.clinic .ph{display:block;font:600 22px var(--fd);text-decoration:none;margin:4px 0}
+.row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+footer{padding:30px 0 40px;text-align:center;color:var(--mute);font-size:14px;border-top:1px solid var(--line)}
+footer p{margin:0 0 6px}
+.warn{font-weight:700;color:var(--ink)}
+@media (max-width:760px){nav{display:none}.pane,.about,.clinic{grid-template-columns:1fr}section{padding:60px 0}.hero{min-height:84vh}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-delay:0s!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><b>Ш. С. Шалунц</b>
+<nav><a href="#help">С чем помогаю</a><a href="#visit">Как проходит приём</a><a href="#about">О враче</a><a href="#contact">Запись</a></nav>
+<button id="theme" aria-label="Сменить тему">◐</button></div></header>
+
+<main>
+<div class="hero">
+<canvas id="net" aria-hidden="true"></canvas>
+<div class="wrap">
+<p class="role">Невролог, психотерапевт, эпилептолог · Астрахань</p>
+<h1><span><i>Шалунц</i></span><span><i>Шушаник</i></span><span><i>Сергеевна</i></span></h1>
+<p class="sub">Внимательно выслушаю, объясню понятным языком, что происходит, и подберу лечение под вашу ситуацию.</p>
+<ul class="chips"><li>Стаж 14+ лет</li><li>Первая категория</li><li>Приём взрослых от 18 лет</li></ul>
+<div class="btns"><a class="btn main" href="#contact">Записаться на приём</a><a class="btn" href="#help">С чем помогаю</a></div>
+</div>
+<div class="hint">Проведите по экрану — нейроны откликнутся</div>
+</div>
+
+<section id="help"><div class="wrap">
+<h2>С чем можно обратиться</h2>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div class="pane" id="pane" role="tabpanel" aria-live="polite"></div>
+<p class="note">Перечень примерный. Подойдёт ли вам приём, уточняйте при записи.</p>
+</div></section>
+
+<section id="visit"><div class="wrap">
+<h2>Как проходит приём</h2>
+<ol class="steps">
+<li><b>Беседа</b><span>Расскажете, что беспокоит, когда началось и как влияет на жизнь.</span></li>
+<li><b>Осмотр</b><span>Неврологический осмотр и разбор ваших прежних обследований.</span></li>
+<li><b>План</b><span>Объясню, какие обследования нужны и зачем, без лишних назначений.</span></li>
+<li><b>Лечение</b><span>Назначу терапию и договорюсь о контрольном визите.</span></li>
+</ol>
+</div></section>
+
+<section id="about"><div class="wrap">
+<h2>О враче</h2>
+<div class="about">
+<div>
+<p>Врач-невролог и эпилептолог, работает с пациентами в Астрахани. Принимает в медицинских центрах «Салютем» и «КлинКор».</p>
+<p>Пациенты в отзывах отмечают внимательность, спокойное общение и подробные объяснения на приёме.</p>
+<p style="color:var(--mute);font-size:15px">Возьмите с собой прежние заключения, результаты МРТ, КТ и ЭЭГ, если они есть.</p>
+</div>
+<ul class="facts">
+<li>Специальности<span>Неврология, эпилептология, психотерапия</span></li>
+<li>Стаж<span>14+ лет</span></li>
+<li>Категория<span>Первая</span></li>
+<li>Пациенты<span>Взрослые от 18 лет</span></li>
+</ul>
+</div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Запись на приём</h2>
+<div class="tabs" role="tablist" id="ctabs"></div>
+<div class="clinic" id="clinic" role="tabpanel" aria-live="polite"></div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<p class="warn">Имеются противопоказания. Необходима консультация специалиста.</p>
+<p>Сайт-визитка носит информационный характер и не заменяет очный приём. Данные о враче взяты из открытых источников.</p>
+</div></footer>
+
+<script>
+(function(){
+function tabs(id,items,paneId,render){
+  var t=document.getElementById(id),p=document.getElementById(paneId);
+  function show(i,a){
+    [].forEach.call(t.children,function(b,j){b.setAttribute('aria-selected',j===i)});
+    p.innerHTML=render(items[i]);
+    if(a){p.classList.remove('swap');void p.offsetWidth;p.classList.add('swap')}
+    var c=p.querySelector('[data-copy]');
+    if(c)c.onclick=function(){var n=c.getAttribute('data-copy'),o=c.textContent;try{navigator.clipboard.writeText(n).then(function(){c.textContent='Скопировано';setTimeout(function(){c.textContent=o},1600)},function(){})}catch(e){}};
+  }
+  items.forEach(function(s,i){var b=document.createElement('button');b.className='tab';b.role='tab';b.textContent=s.t;b.onclick=function(){show(i,true)};t.appendChild(b)});
+  show(0,false);
+}
+tabs('tabs',[
+{t:'Неврология',h:'Неврология',d:'Разберёмся с жалобами со стороны нервной системы и найдём их причину.',l:['Головные боли и мигрени','Головокружения и шум в голове','Нарушения сна','Невралгии и неврит','Последствия травм головы','Вегетативные расстройства']},
+{t:'Эпилепсия',h:'Эпилептология',d:'Помогу понять природу приступов и выстроить наблюдение и лечение.',l:['Подозрение на эпилепсию','Судорожные приступы и потери сознания','Подбор и контроль терапии','Разбор результатов ЭЭГ и МРТ','Наблюдение в динамике']},
+{t:'Психотерапия',h:'Психотерапия',d:'Работаем с состояниями, которые мешают жить и не всегда объясняются неврологией.',l:['Тревога и панические атаки','Стресс и эмоциональное выгорание','Подавленное настроение','Бессонница','Телесные симптомы на фоне стресса']}
+],'pane',function(s){return '<div><h3>'+s.h+'</h3><p>'+s.d+'</p></div><ul>'+s.l.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul>'});
+
+tabs('ctabs',[
+{t:'МЦ «Салютем»',n:'МЦ «Салютем»',a:'Астрахань, ул. Эспланадная, 35 и ул. Московская, 12',w:'Ежедневно с 8:00 до 20:00',p:[['+7 8512 442 442','+78512442442'],['+7 8512 442 444','+78512442444']],u:'http://salutem-clinic.ru/company/staff/spetsialisty/shalunts-shushanik-sergeevna/',ut:'Страница врача на сайте клиники'},
+{t:'МЦ «КлинКор»',n:'МЦ «КлинКор»',a:'Астрахань. Адрес уточняйте при записи.',w:'',p:[['+7 851 246-48-13','+78512464813']],u:'https://prodoctorov.ru/astrahan/lpu/111886-medicinskiy-centr-klinkor/',ut:'Клиника на ПроДокторов'}
+],'clinic',function(c){
+  var ph=c.p.map(function(x){return '<a class="ph" href="tel:'+x[1]+'">'+x[0]+'</a>'}).join('');
+  return '<div><h3>'+c.n+'</h3><p>'+c.a+'</p>'+(c.w?'<p>'+c.w+'</p>':'')+'<div class="row"><a class="btn" href="'+c.u+'" target="_blank" rel="noopener">'+c.ut+'</a></div></div><div><p>Запись по телефону</p>'+ph+'<div class="row"><button class="btn" type="button" data-copy="'+c.p[0][0]+'">Скопировать номер</button></div></div>'});
+
+var root=document.documentElement;
+document.getElementById('theme').onclick=function(){
+  var d=root.dataset.theme?root.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+  root.dataset.theme=d?'light':'dark';
+};
+
+var cv=document.getElementById('net'),x=cv.getContext('2d'),W,H,dpr=Math.min(devicePixelRatio||1,2),N=[],P={x:-999,y:-999};
+var still=matchMedia('(prefers-reduced-motion:reduce)').matches;
+function col(n){return getComputedStyle(root).getPropertyValue(n).trim()}
+function init(){
+  var r=cv.getBoundingClientRect();W=r.width;H=r.height;cv.width=W*dpr;cv.height=H*dpr;x.setTransform(dpr,0,0,dpr,0,0);
+  var n=Math.round(Math.min(70,W*H/14000));N=[];
+  for(var i=0;i<n;i++)N.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.25,vy:(Math.random()-.5)*.25,g:0});
+}
+init();addEventListener('resize',init);
+var hero=cv.parentNode;
+function mv(e){var r=cv.getBoundingClientRect();P.x=e.clientX-r.left;P.y=e.clientY-r.top}
+hero.addEventListener('pointermove',mv);
+hero.addEventListener('pointerdown',function(e){mv(e);N.forEach(function(o){var d=Math.hypot(o.x-P.x,o.y-P.y);if(d<200)o.g=1})});
+hero.addEventListener('pointerleave',function(){P.x=P.y=-999});
+var L=130;
+function frame(){
+  x.clearRect(0,0,W,H);
+  var a=col('--acc'),t=col('--teal'),i,j,o,q,d;
+  for(i=0;i<N.length;i++){
+    o=N[i];
+    if(!still){o.x+=o.vx;o.y+=o.vy;if(o.x<0||o.x>W)o.vx*=-1;if(o.y<0||o.y>H)o.vy*=-1}
+    if(Math.hypot(o.x-P.x,o.y-P.y)<110)o.g=Math.max(o.g,1);
+  }
+  var next=N.map(function(o){return o.g*.94});
+  for(i=0;i<N.length;i++){
+    o=N[i];
+    for(j=i+1;j<N.length;j++){
+      q=N[j];d=Math.hypot(o.x-q.x,o.y-q.y);
+      if(d<L){
+        var s=Math.max(o.g,q.g);
+        if(o.g>.5)next[j]=Math.max(next[j],o.g*.96);
+        if(q.g>.5)next[i]=Math.max(next[i],q.g*.96);
+        x.globalAlpha=(1-d/L)*(.22+s*.7);x.strokeStyle=s>.3?t:a;x.lineWidth=1+s;
+        x.beginPath();x.moveTo(o.x,o.y);x.lineTo(q.x,q.y);x.stroke();
+      }
+    }
+  }
+  for(i=0;i<N.length;i++){
+    o=N[i];o.g=next[i];
+    x.globalAlpha=.45+o.g*.55;x.fillStyle=o.g>.3?t:a;
+    x.beginPath();x.arc(o.x,o.y,2.2+o.g*3.5,0,7);x.fill();
+  }
+  x.globalAlpha=1;
+  if(!still)requestAnimationFrame(frame);
+}
+frame();
+if(still)addEventListener('resize',frame);
+})();
+</script>
+</body>
+</html>
